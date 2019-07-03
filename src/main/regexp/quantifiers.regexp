@@ -1,0 +1,15 @@
+(optional\noptional)?
+(optional)??
+(optional)?+
+(once-or-more)+
+(once-or-more)+?
+(once-or-more)++
+(zero-or-more)*
+(zero-or-more)*?
+(zero-or-more)*+
+(exactly){1}
+(exactly){0}
+(at-least){3,}
+(between){1,3}
+(between){1,3}+
+(exactly-lazy){3}?

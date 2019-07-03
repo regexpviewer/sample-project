@@ -1,0 +1,2 @@
+
+def pattern = ~/([Gg])roovy/
