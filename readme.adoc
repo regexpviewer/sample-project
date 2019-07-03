@@ -1,0 +1,26 @@
+= Sample project
+v1.0, 2019-07-03
+
+This is a sample project for RegExp Viewer plugin testing.
+
+Plugin relies upon https://git.io/fj6Ib[built-in RegExp plugin] for RegExp
+parsing and validation.
+
+Built-in plugin relies on `RegExpLanguageHost` https://git.io/fj6Ix[extension point]
+for RegExp host languages. There's 2 RegExp language hosts I know of, `JavaRegExpHost`
+(two of them actually, for Java and Kotlin) and `GroovyRegExpHost`.
+
+Plugin automatically detects RegExp language hosts in your IDEA installation and allows to
+switch between different hosts in `.regexp` file editor.
+
+So if there's some unknown `RegExpLanguageHost` is implemented on your system,
+you still should be fine.
+
+This sample project consists of 4 source folders with RegExps
+
+* link:/src/main/java/JavaRegExp.java[Java]
+* link:/src/main/kotlin/KotlinRegExp.kt[Kotlin]
+* link:/src/main/groovy/GroovyRegExp.groovy[Groovy]
+* link:/src/main/regexp/[plain `.regexp` files]
+
+Feel free to request new languages to be added.
